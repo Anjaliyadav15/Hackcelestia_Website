@@ -1,1 +1,1 @@
-# Hackcelestia_Website
+This is the official website of HackCelestia-2025 which is an annual hackathon conducted by Banasthali Vidyapith.
