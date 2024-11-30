@@ -794,9 +794,30 @@
               <div class="prize-text">Best Ethereum App - ₹ 5000 Cash</div>
             </div> -->
       </div>
-       <h3 class="note" style="color: #022149; text-align: center; margin-top: 20px;">
+       <h3 class="note">
     Amazing goodies and delicious food for all participants!
   </h3>
+  <style>
+    .note {
+      color: #022149;
+      font-size: 1.5rem;
+      position: absolute;
+      white-space: nowrap; /* Prevents the text from wrapping */
+      animation: flow 6s linear infinite;
+    }
+  
+    @keyframes flow {
+      0% {
+        left: -100%; /* Start completely off-screen to the left */
+      }
+      50% {
+        left: 50%; /* Center it at the middle of the screen */
+      }
+      100% {
+        left: 100%; /* End completely off-screen to the right */
+      }
+    }
+  </style>
         </div>
       <div style="width: 4px"></div>
       <div class="frame frame7" id="FAQs">
